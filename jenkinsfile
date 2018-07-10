@@ -1,10 +1,12 @@
 node {
-    stage('scm') {
+	stage('scm') {
     // some block
-        git 'https://github.com/lingaswamy123/game-of-life.git'
+		https://github.com/lingaswamy123/game-of-life.git
 }
-    stage('package') {
-        sh 'mvn package'
-    }
+	stage('mvn') {
+    // some block
+		sh 'mvn package'
+}
+
 
 }
